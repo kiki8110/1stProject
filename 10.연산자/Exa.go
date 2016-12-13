@@ -49,4 +49,6 @@ func main() {
 	var ff2 float32 = 2.1
 	fmt.Println(ff1, "/", ff2, "=", ff1/ff2)
 
+	var test int = 1010
+	fmt.Println(test, "+", ii1, "-", ii2, "*", ii1, "=", test+ii1-ii2*ii1)
 }
